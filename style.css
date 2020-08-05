@@ -6,6 +6,11 @@ body {
     font-size: 14px;
     line-height: 20px;
     color: #3c425f;
+    scroll-snap-type: none;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
 }
 
 .container {
