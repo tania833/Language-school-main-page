@@ -664,4 +664,7 @@ body::-webkit-scrollbar {
         grid-template-columns: 230px;
         grid-template-rows: 80px 1fr;
     }
+    .main__contacts {
+        padding-left: 10px;
+    }
 }
