@@ -6,6 +6,11 @@ body {
     font-size: 14px;
     line-height: 20px;
     color: #3c425f;
+    scroll-snap-type: none;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
 }
 
 .container {
@@ -658,5 +663,8 @@ body {
         display: grid;
         grid-template-columns: 230px;
         grid-template-rows: 80px 1fr;
+    }
+    .main__contacts {
+        padding-left: 10px;
     }
 }
